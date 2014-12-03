@@ -1,0 +1,91 @@
+{
+    "project": {
+        "name": "my bio project",
+        "description": "Dolore voluptate sint proident ad quis esse non exercitation deserunt elit est consectetur id. Tempor veniam sint voluptate voluptate eiusmod. Non deserunt ex eiusmod laboris commodo consectetur quis reprehenderit voluptate aliqua ea. Elit fugiat ad voluptate eu Lorem dolor eiusmod sunt laborum. Laboris reprehenderit excepteur sint amet tempor mollit occaecat aliquip sint minim. Minim enim dolor voluptate quis labore deserunt nulla est fugiat Lorem dolor. Aliquip Lorem anim mollit est proident fugiat dolore dolore.",
+        "principle_locations": [
+            "England",
+            "Scotland"
+        ],
+        "principle_species": [
+            "birds",
+            "bugs"
+        ]
+    },
+    "workflows": {
+        "id324": {
+            "project": "my bio project",
+            "description": "grab geo data",
+            "retirement": {
+                "blank": 2,
+                "done": 10
+            },
+            "steps": [
+                {
+                    "key": "lat",
+                    "type": "location-lat",
+                    "help_text": "Velit nisi ut proident excepteur est amet. Elit reprehenderit qui commodo voluptate velit. Aliquip esse sunt elit duis culpa anim irure dolor dolor cupidatat quis. In nostrud occaecat et eu deserunt ut. Deserunt est ea deserunt anim id consequat in excepteur laboris aliqua. Proident et in fugiat do reprehenderit. Ut in exercitation commodo excepteur ea quis laboris.",
+                    "prompt_text": "Ea non reprehenderit labore ipsum consequat irure commodo voluptate aliquip fugiat enim commodo et ut.",
+                    "examples": [
+                        "http://examples.com/1.jpeg",
+                        "http://examples.com/2.jpeg"
+                    ]
+                },
+
+                {
+                    "key": "city",
+                    "type": "select",
+                    "options": [
+                        "Edinburgh",
+                        "Glasgow",
+                        "Chicago"
+                    ],
+                    "help_text": "Velit nisi ut proident excepteur est amet. Elit reprehenderit qui commodo voluptate velit. Aliquip esse sunt elit duis culpa anim irure dolor dolor cupidatat quis. In nostrud occaecat et eu deserunt ut. Deserunt est ea deserunt anim id consequat in excepteur laboris aliqua. Proident et in fugiat do reprehenderit. Ut in exercitation commodo excepteur ea quis laboris.",
+                    "prompt_text": "Ea non reprehenderit labore ipsum consequat irure commodo voluptate aliquip fugiat enim commodo et ut.",
+                    "examples": [
+                        "http://examples.com/1.jpeg",
+                        "http://examples.com/2.jpeg"
+                    ]
+                }
+            ]
+        }
+    },
+
+    "groups": [
+        {
+            "name": "Glasgow bird collection",
+            "workflow": "id324",
+            "metadata": {},
+            "description": "Qui Lorem magna in labore occaecat.",
+            "hero_image": "http://images.com/hero.png",
+            "icon": "http://images.com/icon.png",
+            "principle_locations": [
+                "here",
+                "there"
+            ],
+            "principle_species": [
+                "cats",
+                "dogs"
+            ]
+        }
+
+    ],
+
+    "subjects": [
+        {
+            "location": {
+                "standard": "http://subjects.com/1.jpg",
+                "thumb": "http://subjects.com/1_thumb.jpg"
+            },
+            "group_id": "g_id1",
+            "coords": [
+                10,
+                2
+            ],
+            "prior_data": {
+                "location": "glasdgow",
+                "date": "1/2/1984"
+            },
+            "metadata": {}
+        }
+    ]
+}
