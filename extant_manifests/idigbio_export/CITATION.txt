@@ -1,0 +1,16 @@
+http://www.idigbio.org/portal (2014), 
+Query: {"data": {"type": "fulltext", "value": "wakulla springs"}, "hasImage": true},
+130 records, accessed on 2014-10-08T12:25:23.700451,
+contributed by 12 Recordsets, Recordset identifiers:
+http://www.idigbio.org/portal/recordsets/40987883-03cf-494a-a5cf-7c77c7aadb79 (43 records)
+http://www.idigbio.org/portal/recordsets/fccc3c1d-d9df-4ffd-b7e1-1b9eb11f95b1 (30 records)
+http://www.idigbio.org/portal/recordsets/e0e37702-32af-405b-b652-ee54b5bb94e2 (19 records)
+http://www.idigbio.org/portal/recordsets/29d217e3-754b-4a72-9e57-5cd05312e7c0 (10 records)
+http://www.idigbio.org/portal/recordsets/f3a5ec1a-49dd-4a52-8bd8-67cacae7a7ac (9 records)
+http://www.idigbio.org/portal/recordsets/0072bf11-a354-4998-8730-c0cb4cfc9517 (8 records)
+http://www.idigbio.org/portal/recordsets/d29b9265-07e6-4e73-8f72-fc42d3d83fb1 (4 records)
+http://www.idigbio.org/portal/recordsets/1f2b44b8-8556-4d6e-8247-4611689551cf (2 records)
+http://www.idigbio.org/portal/recordsets/04d9b721-259c-4d6b-b48f-2e23edf66c9f (2 records)
+http://www.idigbio.org/portal/recordsets/d2c71720-e156-4943-8182-0a7bbe477a37 (1 records)
+http://www.idigbio.org/portal/recordsets/58402fe3-37c1-4d15-9e07-0ff1c4c9fb11 (1 records)
+http://www.idigbio.org/portal/recordsets/2bbafa00-3162-4e8e-947c-64a13b8d3fef (1 records)
