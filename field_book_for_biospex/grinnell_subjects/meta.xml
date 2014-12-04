@@ -1,0 +1,11 @@
+
+<archive xmlns="http://rs.tdwg.org/dwc/text/">
+  <core  encoding="utf-8" fieldsTerminatedBy="," linesTerminatedBy="\n" fieldsEnclosedBy="&quot;" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/ac/terms/multimedia">
+	<files>
+		<location>multimedia.txt</location>
+	</files>
+	<id index="0" />
+	<field index="1" term="http://purl.org/dc/terms/format"/>
+	<field index="2" term="http://rs.tdwg.org/ac/terms/accessURI"/>
+  </core>
+</archive>
