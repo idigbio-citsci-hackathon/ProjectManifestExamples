@@ -1,0 +1,111 @@
+{
+    "project":
+    {
+        "identifier": "Generated UUID",
+        "name": "My Bio Project",
+        "provider": "Project data provider - first registry",
+        "description": "Dolore voluptate sint proident ad quis esse non exercitation.",
+        "contacts": [
+            {
+                "email": "",
+                "name": "",
+                "title": ""
+            }
+        ],
+        "projectUrl": "http:\/\/project.com",
+        "keywords": "Keywords, either array or comma delimited?",
+        "status": "Select from values [Starting, Active, Complete, Hiatus]",
+        "updated_at": "2014-11-18 13:27:20",
+        "targetFields": [
+            {
+                "name": "field 1",
+                "description": "field description",
+                "validResponse": "Discuss this",
+                "inference": "Discuss this",
+                "inferenceExample": "Discuss this"
+            }
+        ]
+    },
+    "dataSet": {
+        "identifier": "Generated UUID",
+        "title": "My Sample Expedition 1",
+        "dataUrl": "Url to data csv or json"
+    },
+    "geoLocateActions": [
+        {
+            "msgType": "createCommunity",
+            "msg": {
+                "community": {
+                    "exteranlId": "xxx-xxxxx-xxx",
+                    "communityName": "Flora of North America",
+                    "communityDescription": "A project to georeference ... ",
+                    "communityAccess": "public",
+                    "georeferencingLanguageISO639-1": "en",
+                    "waterbodyMatching": "TRUE",
+                    "admistrativeUnitRestriction": "FALSE",
+                    "identifyBridgeCrossings": "TRUE",
+                    "calculateUncertainty": "TRUE",
+                    "lookupPolygons": "FALSE",
+                    "displacePolygons": "FALSE"
+                },
+                "dataSources": [],
+                "members": []
+            }
+        },
+        {
+            "msgType": "addDatasource",
+            "msg": {
+                "dataSource": {
+                    "exteranlId": "xxx-xxxxx-xxx",
+                    "datasourceName": "Apalachicola records",
+                    "datasourceDescription": "Apalachicola records",
+                    "data": {
+                        "fileFormat": "CSV",
+                        "fileCompression": "none",
+                        "fileLocation": "http: //wwww....",
+                        "fileEncoding": "UTF-8",
+                        "dataMapping": {
+                            "CatalogNumber": "OccurrenceID",
+                            "LocalityString": "Location"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "msgType": "getCommunity",
+            "msg": {
+                "exteranlId": "xxx-xxxxx-xxx"
+            }
+        },
+        {
+            "msgType": "getDatasource",
+            "msg": {
+                "exteranlId": "xxx-xxxxx-xxx"
+            }
+        },
+        {
+            "mgsType": "getCommunityResponse",
+            "msg": {
+                "status": "created",
+                "dateCreated": "",
+                "owner": "geocoder12345",
+                "community": {
+                    "exteranlId": "xxx-xxxxx-xxx",
+                    "communityName": "Flora of North America",
+                    "communityDescription": "A project to georeference ... ",
+                    "communityAccess": "public",
+                    "georeferencingLanguageISO639-1": "en",
+                    "waterbodyMatching": "TRUE",
+                    "admistrativeUnitRestriction": "FALSE",
+                    "identifyBridgeCrossings": "TRUE",
+                    "calculateUncertainty": "TRUE",
+                    "lookupPolygons": "FALSE",
+                    "displacePolygons": "FALSE"
+                },
+                "dataSources": [],
+                "members": []
+            }
+        }
+    ]
+}
