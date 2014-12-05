@@ -26,10 +26,12 @@
             }
         ]
     },
-    "dataSet": {
+    "dataSet": [
+        {
         "identifier": "Generated UUID",
         "title": "My Sample Expedition 1",
         "dataUrl": "Url to data csv or json"
-    },
+        }
+    ],
     "comment": "A note describing why this manifest was sent."
 }
