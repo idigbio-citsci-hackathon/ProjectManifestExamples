@@ -58,8 +58,8 @@
     "dataSet": [
       {
         "identifier": "Generated UUID",
-        "title": "My Sample Expedition 1",
-        "dataUrl": "Url to data csv or json"
+        "title": "My Expedition 1",
+        "dataUrl": "http://biospex.org/downloads/0945869.zip"
       }
     ],
     "parent":
