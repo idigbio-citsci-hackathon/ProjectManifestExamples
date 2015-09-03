@@ -1,0 +1,108 @@
+{
+  "request":
+  {
+    "type": "transcription",
+    "nfn":
+    {
+      "subjectType": "Herbarium"
+    },
+    "targetFields": [
+      {
+        "name": "country",
+        "title": "Country",
+        "description": "Country in which specimen was collected",
+        "validResponse": "ISO Country Name",
+        "inference": "May infer country from lower political unit",
+        "inferenceExample": "United States from knowing specimen is in Florida"
+      },
+      {
+        "name": "scientificName",
+        "title": "Scientific Name",
+        "description": "The latest scientific name assigned to the specimen",
+        "validResponse": "",
+        "inference": "",
+        "inferenceExample": ""
+      }
+    ],
+    "startDate": "2015-11-18",
+    "endDate": "2015-12-18"
+  },
+  "package":
+  {
+    "type": "Expedition",
+    "identifier": "Generated UUID",
+    "name": "My Bio Expedition",
+    "provider": "Project data provider - first registry",
+    "description": "Dolore voluptate sint proident ad quis esse non exercitation.",
+    "contacts": [
+      {
+        "email": "",
+        "name": "",
+        "title": ""
+      }
+    ],
+    "keywords": "Keywords, either array or comma delimited?",
+    "status": "Select from values [Starting, Active, Complete, Hiatus]",
+    "updatedAt": "2014-11-18 13:27:20",
+    "acknowledgements": "Thanks to NSF",
+    "geographicScope": "etc. and other fields from the project",
+    "targetFields": [
+      {
+        "name": "field 1",
+        "description": "field description",
+        "validResponse": "Discuss this",
+        "inference": "Discuss this",
+        "inferenceExample": "Discuss this"
+      }
+    ],
+    "dataSet": [
+      {
+        "identifier": "Generated UUID",
+        "title": "My Sample Expedition 1",
+        "dataUrl": "Url to data csv or json"
+      }
+    ],
+    "parent":
+    {
+      "type": "Digitization Project",
+      "identifier": "Generated UUID",
+      "name": "My Bio Project",
+      "provider": "Project data provider - first registry",
+      "description": "Dolore voluptate sint proident ad quis esse non exercitation.",
+      "projectUrl": "http:\/\/project.com",
+      "contacts": [
+        {
+          "email": "",
+          "name": "",
+          "title": ""
+        }
+      ]
+
+    },
+    "ppsr":
+    {
+      "ProjectGUID": "UUID",
+      "ProjectName": "title",
+      "ProjectDataProvider": "Site Name: Biospex",
+      "ProjectDescription": "description",
+      "ProjectDateLastUpdated": "updated_at",
+      "ProjectContactName": "contact",
+      "ProjectContactEmail": "contact_email",
+      "ProjectStatus": "status",
+      "ProjectOrganization": "organization",
+      "ProjectVolunteerSupport": "incentives",
+      "ProjectURL": "slug",
+      "ProjectFacebook": "facebook",
+      "ProjectTwitter": "twitter",
+      "ProjectKeywords": "Keywords",
+      "fieldOfScience": "",
+      "participationType": "",
+      "participantEducation": "language_skills",
+      "fundingSource": "funding_source",
+      "projectBlog": "blog_url",
+      "projectImage": "logo"
+    }
+  },
+
+  "comment": "A note describing why this manifest was sent."
+}
